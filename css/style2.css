@@ -1,0 +1,141 @@
+html{
+    scroll-behavior: smooth;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+    background-color: #faf8f8;
+    border: none;
+}
+.navbar{
+    font-weight: 600;
+    font-size: 20px;
+}
+.navbar-custom{
+    background-color: #faf8f8;
+    
+}
+.navbar-custom .navbar-nav .nav-link{
+color: black;
+}
+.nav-item:hover {
+    border-top: 2px solid green;
+    font-size: 22px;
+    
+}
+
+.navbar-nav > li{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.btn{
+    border-radius: 30px !important;
+    font-weight: 600;
+    margin: 5px;
+    width: auto;
+
+}
+.btn:hover{
+    background-color: #2d213c !important;
+}
+#workout-meeting{
+    display:block ;
+    padding: 10px;
+}
+#workout-meeting > h1{
+    font-weight: 900 ;
+}
+#workout-meeting > p{
+    font-size: 18px;
+}
+img{
+    display: block;
+    height:auto;
+    width:100%;
+}
+#box{
+    text-align: center;
+    height: 100px;
+    background-color: #2d213c;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#box > a{
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+}
+#box:hover{
+    background-color: green;
+}
+
+#about-meeting{
+    display:block;  
+    padding: 10px;
+}
+#about-meeting > h1{
+    font-weight: 900 ;
+    margin-top: 50px;    
+    border-bottom: rgb(224, 224, 252) 7px solid;
+    line-height: 1.5;
+}
+#about-meeting > p{
+    font-size: 20px;
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+#workout-meeting > a{
+    color: green;
+    font-size: 20px;
+    border-bottom: 1px solid green;
+}
+#workout-meeting > a:hover{
+    color: #2d213c;
+    text-decoration: none;
+}
+#workout-meeting > h5{
+    color: green;
+}
+#plan{
+    display:block;  
+    padding: 10px;
+}
+#plan > h1{
+    font-weight: 900 ;
+    margin-top: 50px;    
+    border-bottom: rgb(224, 224, 252) 7px solid;
+    line-height: 1.5;
+}
+#section{
+    background-color: white;
+}
+#plan-content{
+    margin:30px;
+    font-size: 20px;
+}
+#map{
+    display: block;
+    height:auto;
+    width:100%;
+}
+#footer-section{
+    background-color: rgb(42, 42, 58);
+    
+}
+#footer-content{
+    padding: 40px;
+    
+}
+#footer-content > a{
+    color: white;
+    font-size: 28px;
+}
+#footer-content > p{
+    color: white;
+    font-size: 28px;
+}
+#footer-content > a:hover{
+    color: green;
+    text-decoration: none;
+    
+}
